@@ -2,436 +2,155 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Vidoe - Video Streaming Website</title>
+	<title>Carousels</title>
 	<meta name="viewport" content="width=device-width">
 
 	<!-- Normalize Stylesheet -->
 	<link rel="stylesheet" href="css/normalize/normalize.css">
 
 	<!-- Main Stylesheet -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/carousel_style.css">
 
 	<!-- Font Awesome 5 Icons Library -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 </head>
 <body>
-	<header id="header">
-		<ul class="l-header-container">
-			<li class="img img-logo"></li>
-			<li class="icn-t1 icn-upload">
-				<i class="fas fa-plus-circle"></i>
+	<h1 style="width: 50%; margin: 0 auto; text-align: center; padding-top: 20px;">Infinite Carousel</h1>
+	<div class="carousel-container">
+		<ul id="infinite-carousel-1">
+			<li class="card card-s1">
+				<div class="card-container">
+					<div class="thmb thmb-s1"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
 			</li>
-			<li class="icn-t1 icn-notif">
-				<i class="fas fa-bell"></i>
-				<span class="badge badge-red badge-items">9+</span>
+			<li class="card card-s2">
+				<div class="card-container">
+					<div class="thmb thmb-s2"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
 			</li>
-			<li class="icn-t1 icn-msg">
-				<i class="fas fa-envelope"></i>
-				<span class="badge badge-green badge-items">7</span>
+			<li class="card card-s3">
+				<div class="card-container">
+					<div class="thmb thmb-s3"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
 			</li>
-			<li class="thmb thmb-account">
-				<span class="thmb-image-1"></span>
+			<li class="card card-s4">
+				<div class="card-container">
+					<div class="thmb thmb-s4"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
 			</li>
-			<li class="icn-t1 icn-menu">
-				<i class="fas fa-bars"></i>
+			<li class="card card-s5">
+				<div class="card-container">
+					<div class="thmb thmb-s5"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
+			</li>
+			<li class="card card-s6">
+				<div class="card-container">
+					<div class="thmb thmb-s6"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
+			</li>
+			<li class="card card-s7">
+				<div class="card-container">
+					<div class="thmb thmb-s7"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
+			</li>
+			<li class="card card-s8">
+				<div class="card-container">
+					<div class="thmb thmb-s8"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
 			</li>
 		</ul>
-	</header>
-	<div id="l-main-container">
-		<div class="l-main-nav">
-			<nav class="main-nav">
-				<ul>
-					<li><a href=""><i class="fas fa-fw fa-home"></i><span>Home</span></a></li>
-					<li><a href=""><i class="fas fa-fw fa-users"></i><span>Channels</span></a></li>
-					<li><a href=""><i class="fas fa-fw fa-user-alt"></i><span>Single Channel</span></a></li>
-					<li><a href=""><i class="fas fa-fw fa-video"></i><span>Video Page</span></a></li>
-					<li><a href=""><i class="fas fa-fw fa-cloud-upload-alt"></i><span>Upload Video</span></a></li>
-					<li><a href=""><i class="fas fa-fw fa-folder"></i><span>Pages</span></a></li>
-					<li><a href=""><i class="fas fa-fw fa-history"></i><span>History Page</span></a></li>
-					<li><a href=""><i class="fas fa-fw fa-list-alt"></i><span>Categories</span></a></li>
-				</ul>
-			</nav>
+		<div class="arrows">
+			<div class="icn-t1 icn-arrow icn-arrow-left"><i class="fa fa-chevron-left"></i></div>
+			<div class="icn-t1 icn-arrow icn-arrow-right"><i class="fa fa-chevron-right"></i></div>
 		</div>
-		<main id="l-main-content">
-			<form class="form form-search-bar" action="post">
-				<input id="search-bar" type="text" name="search-bar" placeholder="Search for...">
-				<button class="btn btn-search" type="submit" >
-					<i class="fas fa-search"></i>
-				</button>
-			</form>
-			<div class="l-main-sections">
-				<section class="section section-categories">
-					<div class="title title-categories">
-						<h2>Channels Categories</h2>
-						<div class="sort sort-by">
-							<div class="icn-t2 icn-dotted">
-								<i class="fa fa-ellipsis-h"></i>
-							</div>
-						</div>
-					</div>
-					<div class="l-card-containers">
-						<ul id="superList">
-							<li class="card card-s1">
-								<div class="card-container">
-									<div class="thmb thmb-s1"></div>
-									<h6 class="channel-name">Your Life</h6>
-									<span class="channel-views">74,853 views</span>
-								</div>
-							</li>
-							<li class="card card-s2">
-								<div class="card-container">
-									<div class="thmb thmb-s2"></div>
-									<h6 class="channel-name">Your Life</h6>
-									<span class="channel-views">74,853 views</span>
-								</div>
-							</li>
-							<li class="card card-s3">
-								<div class="card-container">
-									<div class="thmb thmb-s3"></div>
-									<h6 class="channel-name">Your Life</h6>
-									<span class="channel-views">74,853 views</span>
-								</div>
-							</li>
-							<li class="card card-s4">
-								<div class="card-container">
-									<div class="thmb thmb-s4"></div>
-									<h6 class="channel-name">Your Life</h6>
-									<span class="channel-views">74,853 views</span>
-								</div>
-							</li>
-							<li class="card card-s5">
-								<div class="card-container">
-									<div class="thmb thmb-s5"></div>
-									<h6 class="channel-name">Your Life</h6>
-									<span class="channel-views">74,853 views</span>
-								</div>
-							</li>
-							<li class="card card-s6">
-								<div class="card-container">
-									<div class="thmb thmb-s6"></div>
-									<h6 class="channel-name">Your Life</h6>
-									<span class="channel-views">74,853 views</span>
-								</div>
-							</li>
-							<li class="card card-s7">
-								<div class="card-container">
-									<div class="thmb thmb-s7"></div>
-									<h6 class="channel-name">Your Life</h6>
-									<span class="channel-views">74,853 views</span>
-								</div>
-							</li>
-							<li class="card card-s8">
-								<div class="card-container">
-									<div class="thmb thmb-s8"></div>
-									<h6 class="channel-name">Your Life</h6>
-									<span class="channel-views">74,853 views</span>
-								</div>
-							</li>
-						</ul>
-						<div class="arrows">
-							<div class="icn-t1 icn-arrow icn-arrow-left"><i class="fa fa-chevron-left"></i></div>
-							<div class="icn-t1 icn-arrow icn-arrow-right"><i class="fa fa-chevron-right"></i></div>
-						</div>
-					</div>
-					<hr>
-				</section>
-				<section class="section section-featured">
-					<div class="title title-featured">
-						<h2>Featured Videos</h2>
-						<div class="sort sort-by">
-							<span>Sort by</span>
-							<span class="icn-t2 icn-caret-down">
-								<i class="fa fa-caret-down"></i>
-							</span>
-						</div>
-					</div>
-					<div class="l-video-containers">
-						<ul>
-
-							<li class="video video-s1">
-
-								<a href="">
-									<img src="img/video" alt="" class="video-container">
-									<div class="dark dark-screen">
-										<div class="icn-t4 icn-play">
-											<i class="fas fa-play-circle"></i>
-										</div>
-									</div>
-								</a>
-
-								<div class="info-container">
-									<a href="">
-										<h6 class="video-name">There are many variations of passages of Lorem</h6>
-									</a>
-
-									<div class="video-tag">
-										<span>Education</span>
-										<span class="icn-t3 icn-check">
-											<i class="fas fa-check-circle"></i>
-										</span>
-									</div>
-
-									<div class="video-stats">
-										<span>1.8M views <i class="fas fa-calendar-alt"></i>11 Months ago</span>
-									</div>
-								</div>
-							</li>
-
-							<li class="video video-s2">
-								<a href="">
-									<img src="img/video" alt="" class="video-container">
-									<div class="dark dark-screen">
-										<div class="icn-t4 icn-play">
-											<i class="fas fa-play-circle"></i>
-										</div>
-									</div>
-								</a>
-
-								<div class="info-container">
-									<a href=""><h6 class="video-name">There are many variations of passages of Lorem</h6></a>
-
-									<div class="video-tag">
-										<span>Education</span>
-										<span class="icn-t3 icn-check">
-											<i class="fas fa-check-circle"></i>
-										</span>
-									</div>
-
-									<div class="video-stats">
-										<span>1.8M views <i class="fas fa-calendar-alt"></i>11 Months ago</span>
-									</div>
-								</div>
-							</li>
-
-							<li class="video video-s3">
-								<a href="">
-									<img src="img/video" alt="" class="video-container">
-									<div class="dark dark-screen">
-										<div class="icn-t4 icn-play">
-											<i class="fas fa-play-circle"></i>
-										</div>
-									</div>
-								</a>
-
-								<div class="info-container">
-									<a href=""><h6 class="video-name">There are many variations of passages of Lorem</h6></a>
-
-									<div class="video-tag">
-										<span>Education</span>
-										<span class="icn-t3 icn-check">
-											<i class="fas fa-check-circle"></i>
-										</span>
-									</div>
-
-									<div class="video-stats">
-										<span>1.8M views <i class="fas fa-calendar-alt"></i>11 Months ago</span>
-									</div>
-								</div>
-							</li>
-
-							<li class="video video-s4">
-								<a href="">
-									<img src="img/video" alt="" class="video-container">
-									<div class="dark dark-screen">
-										<div class="icn-t4 icn-play">
-											<i class="fas fa-play-circle"></i>
-										</div>
-									</div>
-								</a>
-
-								<div class="info-container">
-									<a href=""><h6 class="video-name">There are many variations of passages of Lorem</h6></a>
-
-									<div class="video-tag">
-										<span>Education</span>
-										<span class="icn-t3 icn-check">
-											<i class="fas fa-check-circle"></i>
-										</span>
-									</div>
-
-									<div class="video-stats">
-										<span>1.8M views <i class="fas fa-calendar-alt"></i>11 Months ago</span>
-									</div>
-								</div>
-							</li>
-
-							<li class="video video-s5">
-								<a href="">
-									<img src="img/video" alt="" class="video-container">
-									<div class="dark dark-screen">
-										<div class="icn-t4 icn-play">
-											<i class="fas fa-play-circle"></i>
-										</div>
-									</div>
-								</a>
-
-								<div class="info-container">
-									<a href=""><h6 class="video-name">There are many variations of passages of Lorem</h6></a>
-
-									<div class="video-tag">
-										<span>Education</span>
-										<span class="icn-t3 icn-check">
-											<i class="fas fa-check-circle"></i>
-										</span>
-									</div>
-
-									<div class="video-stats">
-										<span>1.8M views <i class="fas fa-calendar-alt"></i>11 Months ago</span>
-									</div>
-								</div>
-							</li>
-
-							<li class="video video-s6">
-								<a href="">
-									<img src="img/video" alt="" class="video-container">
-									<div class="dark dark-screen">
-										<div class="icn-t4 icn-play">
-											<i class="fas fa-play-circle"></i>
-										</div>
-									</div>
-								</a>
-
-								<div class="info-container">
-									<a href=""><h6 class="video-name">There are many variations of passages of Lorem</h6></a>
-
-									<div class="video-tag">
-										<span>Education</span>
-										<span class="icn-t3 icn-check">
-											<i class="fas fa-check-circle"></i>
-										</span>
-									</div>
-
-									<div class="video-stats">
-										<span>1.8M views <i class="fas fa-calendar-alt"></i>11 Months ago</span>
-									</div>
-								</div>
-							</li>
-
-							<li class="video video-s7">
-								<a href="">
-									<img src="img/video" alt="" class="video-container">
-									<div class="dark dark-screen">
-										<div class="icn-t4 icn-play">
-											<i class="fas fa-play-circle"></i>
-										</div>
-									</div>
-								</a>
-
-								<div class="info-container">
-									<a href=""><h6 class="video-name">There are many variations of passages of Lorem</h6></a>
-
-									<div class="video-tag">
-										<span>Education</span>
-										<span class="icn-t3 icn-check">
-											<i class="fas fa-check-circle"></i>
-										</span>
-									</div>
-
-									<div class="video-stats">
-										<span>1.8M views <i class="fas fa-calendar-alt"></i>11 Months ago</span>
-									</div>
-								</div>
-							</li>
-
-							<li class="video video-s8">
-								<a href="">
-									<img src="img/video" alt="" class="video-container">
-									<div class="dark dark-screen">
-										<div class="icn-t4 icn-play">
-											<i class="fas fa-play-circle"></i>
-										</div>
-									</div>
-								</a>
-
-								<div class="info-container">
-									<a href=""><h6 class="video-name">There are many variations of passages of Lorem</h6></a>
-
-									<div class="video-tag">
-										<span>Education</span>
-										<span class="icn-t3 icn-check">
-											<i class="fas fa-check-circle"></i>
-										</span>
-									</div>
-
-									<div class="video-stats">
-										<span>1.8M views <i class="fas fa-calendar-alt"></i>11 Months ago</span>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-					<hr>
-				</section>
-
-				<section class="section section-popular">
-					<div class="title title-popular">
-						<h2>Popular Channels</h2>
-						<div class="sort sort-by">
-							<span>Sort by</span>
-							<span class="icn-t2 icn-caret-down">
-								<i class="fa fa-caret-down"></i>
-							</span>
-						</div>
-					</div>
-					<div class="l-card-containers">
-						<ul>
-							<li class="card card-s1">
-								<div class="card-container">
-									<button class="thmb thmb-s1"></button>
-									<div class="btn btn-subscribe">Subscribe <strong>1.4M</strong></div>
-									<h6 class="channel-name">Channels Name</h6>
-									<span class="channel-subs">382,323 Subscribers</span>
-								</div>
-							</li>
-							<li class="card card-s2">
-								<div class="card-container">
-									<button class="thmb thmb-s2"></button>
-									<div class="btn btn-subscribe">Subscribe <strong>1.4M</strong></div>
-									<h6 class="channel-name">Channels Name</h6>
-									<span class="channel-subs">382,323 Subscribers</span>
-								</div>
-							</li>
-							<li class="card card-s3">
-								<div class="card-container">
-									<button class="thmb thmb-s3"></button>
-									<div class="btn btn-subscribe">Subscribe <strong>1.4M</strong></div>
-									<h6 class="channel-name">Channels Name</h6>
-									<span class="channel-subs">382,323 Subscribers</span>
-								</div>
-							</li>
-							<li class="card card-s4">
-								<div class="card-container">
-									<button class="thmb thmb-s4"></button>
-									<div class="btn btn-subscribe">Subscribe <strong>1.4M</strong></div>
-									<h6 class="channel-name">Channels Name</h6>
-									<span class="channel-subs">382,323 Subscribers</span>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</section>
-			</div>
-			
-			<footer id="footer">
-				<div class="footer footer-info">
-					<div class="footer-copyright">&copy; Copyright 2018 <span><strong>Vidoe</strong></span>. All Rights Reserved</div>
-					<div class="footer-author"><small>Made with <i class="fas fa-heart"></i> by <a href=""><span id="author">Mapacho</span></a></small></div>
-				</div>
-				<div class="footer footer-apps">
-					<a href=""> <img class="img img-app" src="https://askbootstrap.com/preview/vidoe/img/google.png" alt=""></a>
-					<a href=""><img class="img img-app" src="https://askbootstrap.com/preview/vidoe/img/apple.png" alt=""></a>
-				</div>
-			</footer>
-		</main>
 	</div>
 
-	<!-- jQuery CDN -->
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<h1 style="width: 50%; margin: 0 auto; text-align: center; padding-top: 20px;">Finite Carousel</h1>
+	<div class="carousel-container">
+		<ul id="finite-carousel-1">
+			<li class="card card-s1">
+				<div class="card-container">
+					<div class="thmb thmb-s1"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
+			</li>
+			<li class="card card-s2">
+				<div class="card-container">
+					<div class="thmb thmb-s2"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
+			</li>
+			<li class="card card-s3">
+				<div class="card-container">
+					<div class="thmb thmb-s3"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
+			</li>
+			<li class="card card-s4">
+				<div class="card-container">
+					<div class="thmb thmb-s4"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
+			</li>
+			<li class="card card-s5">
+				<div class="card-container">
+					<div class="thmb thmb-s5"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
+			</li>
+			<li class="card card-s6">
+				<div class="card-container">
+					<div class="thmb thmb-s6"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
+			</li>
+			<li class="card card-s7">
+				<div class="card-container">
+					<div class="thmb thmb-s7"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
+			</li>
+			<li class="card card-s8">
+				<div class="card-container">
+					<div class="thmb thmb-s8"></div>
+					<h6 class="channel-name">Your Life</h6>
+					<span class="channel-views">74,853 views</span>
+				</div>
+			</li>
+		</ul>
+		<div class="arrows">
+			<div class="icn-t1 icn-arrow icn-arrow-left"><i class="fa fa-chevron-left"></i></div>
+			<div class="icn-t1 icn-arrow icn-arrow-right"><i class="fa fa-chevron-right"></i></div>
+		</div>
+	</div>
 
 	<!-- script.js -->
-	<script src="javascript/script.js"></script>
-	<script src="javascript/carousel.js"></script>
+	<script src="javascript/infiniteCarousel.js"></script>
+	<script src="javascript/finiteCarousel.js"></script>
 
 </body>
 </html>
