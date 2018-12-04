@@ -1,6 +1,6 @@
 *********** CAROUSELS *************
 
-Two kind of carousels can be implemented with this code: finite and infinite. If you wish to know visually how do they function, refer to the link given in the repo's description.
+Two kind of carousels can be implemented with this code: finite and infinite. If you wish to know visually how do they function, refer to http://carouselcode.surge.sh/
 
 * The carousel HTML consists of three main parts:
 	1. The <div> with class carousel-container
